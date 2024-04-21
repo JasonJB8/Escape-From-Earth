@@ -7745,6 +7745,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 927962484}
     - target: {fileID: 7055421762084380080, guid: 835a5dce8e3d00d4c8f356eb8ad20a0d, type: 3}
+      propertyPath: setPowerupIndicator
+      value: 
+      objectReference: {fileID: 1570305857}
+    - target: {fileID: 7055421762084380080, guid: 835a5dce8e3d00d4c8f356eb8ad20a0d, type: 3}
       propertyPath: setPowerUpActiveIndicator
       value: 
       objectReference: {fileID: 1570305857}

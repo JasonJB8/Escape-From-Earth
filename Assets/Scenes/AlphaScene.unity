@@ -7630,18 +7630,6 @@ PrefabInstance:
       propertyPath: reticleImage
       value: 
       objectReference: {fileID: 1933819186}
-    - target: {fileID: 8053781658589971242, guid: ca6343a9a83084598b0d1dbaf3e12442, type: 3}
-      propertyPath: projectilePrefab
-      value: 
-      objectReference: {fileID: 8329520931016339986, guid: 3d2678269fe019946892c6de77810973, type: 3}
-    - target: {fileID: 8053781658589971242, guid: ca6343a9a83084598b0d1dbaf3e12442, type: 3}
-      propertyPath: liveGrenadePrefab
-      value: 
-      objectReference: {fileID: 2514093964019532863, guid: 0f97fef7280369e4e9cb5b5c2480ae70, type: 3}
-    - target: {fileID: 8053781658589971242, guid: ca6343a9a83084598b0d1dbaf3e12442, type: 3}
-      propertyPath: ampedProjectilePrefab
-      value: 
-      objectReference: {fileID: 8329520931016339986, guid: 25abbedb8a952634da1fd94db2bc06a3, type: 3}
     - target: {fileID: 8939073552054251263, guid: ca6343a9a83084598b0d1dbaf3e12442, type: 3}
       propertyPath: shieldTimerText
       value: 
@@ -9237,10 +9225,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1915565335}
     - target: {fileID: 7055421762084380080, guid: 835a5dce8e3d00d4c8f356eb8ad20a0d, type: 3}
-      propertyPath: nextLevel
-      value: BetaScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055421762084380080, guid: 835a5dce8e3d00d4c8f356eb8ad20a0d, type: 3}
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 1915565334}
@@ -9249,7 +9233,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1915565336}
     - target: {fileID: 7055421762084380080, guid: 835a5dce8e3d00d4c8f356eb8ad20a0d, type: 3}
-      propertyPath: setPowerUpActiveIndicator
+      propertyPath: setPowerupIndicator
       value: 
       objectReference: {fileID: 728177025}
     m_RemovedComponents: []

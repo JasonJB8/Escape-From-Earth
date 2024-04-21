@@ -13,6 +13,8 @@ public class LevelManager : MonoBehaviour
     public Text gameText;
     public Text scoreText;
     public TMP_Text ammoText;
+    public GameObject setPowerupIndicator;
+    public static GameObject powerupIndicator;
     public static bool gameOver = false;
     public static int score = 0;
     public static float levelDuration = 100.0f;
@@ -22,8 +24,12 @@ public class LevelManager : MonoBehaviour
     public static int powerupMultiplier = 2;
     public string nextLevel;
     public static bool isPoweredUp;
+    public static GameObject player;
     void Start()
     {
+        powerupIndicator = setPowerupIndicator;
+        powerupIndicator.SetActive(false);
+        player = GameObject.FindGameObjectWithTag("Player");
         int currentScene = SceneManager.GetActiveScene().buildIndex;
         if(currentScene == 1) {
             levelDuration = 100.0f;
@@ -122,6 +128,8 @@ public class LevelManager : MonoBehaviour
     public static void ActivatePowerUp()
     {
         isPoweredUp = true;
+        powerupIndicator.SetActive(true);
+        Camera.main.GetComponent<WeaponManager>().setAmpedProjectile();
         playerGunDamageAmount *= powerupMultiplier;
     }
 }

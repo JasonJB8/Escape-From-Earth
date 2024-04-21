@@ -50,5 +50,5 @@ MonoBehaviour:
   gameText: {fileID: 0}
   scoreText: {fileID: 0}
   ammoText: {fileID: 0}
-  setPowerUpActiveIndicator: {fileID: 0}
-  nextLevel: MainMenu
+  setPowerupIndicator: {fileID: 0}
+  nextLevel: BetaScene
