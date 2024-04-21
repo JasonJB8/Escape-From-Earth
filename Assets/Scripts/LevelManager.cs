@@ -31,6 +31,9 @@ public class LevelManager : MonoBehaviour
         if(currentScene == 2) {
             levelDuration = 200.0f;
         }
+        if(currentScene == 3) {
+            levelDuration = 300.0f;
+        }
         playerGunDamageAmount = playerBaseGunDamage;
         gameOver = false;
         countdown = levelDuration;
